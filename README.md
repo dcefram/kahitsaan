@@ -4,11 +4,13 @@
 
 I'm currently working remote, but I usually meetup with the team at a co-working space once a week... And during those meetups, we always have a dilemma of picking a place to eat within the vicinity of the co-working space. In tagalog, the convo usually goes as the title of this readme...
 
-> Colleague: Gutom na ako, saan tayo kakaen? (I'm hungry, where should we eat?)
-> Me: Kahit saan (Anywhere)
-> Colleague: Pambihira, walang resto na Kahit Saan ang pangalan dito (OMGWTH, there's no resto named "Anywhere" around here)
-> Me: Ikaw gutom, ikaw magisip (You're the one that is hungry, so you should pick where to eat)
-> Colleague: Wag nalang tayo kumaen (Let's diet :P)
+```
+Colleague: Gutom na ako, saan tayo kakaen? (I'm hungry, where should we eat?)
+Me: Kahit saan (Anywhere)
+Colleague: Pambihira, walang resto na Kahit Saan ang pangalan dito (OMGWTH, there's no resto named "Anywhere" around here)
+Me: Ikaw gutom, ikaw magisip (You're the one that is hungry, so you should pick where to eat)
+Colleague: Wag nalang tayo kumaen (Let's diet :P)
+```
 
 #### Solution
 
