@@ -1,6 +1,5 @@
 require "option_parser"
 require "json"
-require "crest"
 require "./kahitsaan/*"
 
 area = "greenbelt"
