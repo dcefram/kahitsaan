@@ -1,0 +1,17 @@
+name: kahitsaan
+version: 0.1.0
+
+authors:
+  - Daniel Cefram Ramirez <me@danielcefram.com>
+
+targets:
+  kahitsaan:
+    main: src/kahitsaan.cr
+
+crystal: 0.27.0
+
+license: MIT
+
+dependencies:
+  crest:
+    github: mamantoha/crest
