@@ -16,6 +16,8 @@ Colleague: Wag nalang tayo kumaen (Let's diet :P)
 
 Create a tool that would retrieve a list of Restaurants around the vicinity, and pick one at random. I was thinking of creating a web app for this, but I decided to take advantage of this to play around [Crystal](https://crystal-lang.org).
 
+Oh, and I used Zomato's API.
+
 P.S. I'm not a Ruby developer, but I'm pretty attracted with how easy it is to dive into Crystal language compared to the other compiled language that I'm also self-studying ([Nim](https://nim-lang.org))... So my code might not be idiomatic "Ruby"/Crystal since I only learned how to write Crystal through the official docs. But I'd love to learn, please send me feedback and/or links to good books.
 
 ## Installation
@@ -25,7 +27,7 @@ P.S. I'm not a Ruby developer, but I'm pretty attracted with how easy it is to d
 - install Crystal duh
 - execute `shards install`
 - execute `crystal build src/kahitsaan --release`
-- add `ZOMATO_API_KEY` to your global env
+- add `ZOMATO_API_KEY` to your global env (Generate one at [Zomato's site](https://developers.zomato.com/api)
 - place binary to a folder that is included in your `PATH`. (I placed mine to `.local/bin`)
 
 ## Usage
