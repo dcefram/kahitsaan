@@ -22,9 +22,11 @@ P.S. I'm not a Ruby developer, but I'm pretty attracted with how easy it is to d
 
 - install libssl (dev version)
 - install libcrypto (dev version)
+- install Crystal duh
 - execute `shards install`
 - execute `crystal build src/kahitsaan --release`
-- place binary to a folder that is included in your `PATH`. (I place mine to `.local/bin`)
+- add `ZOMATO_API_KEY` to your global env
+- place binary to a folder that is included in your `PATH`. (I placed mine to `.local/bin`)
 
 ## Usage
 
