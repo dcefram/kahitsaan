@@ -43,3 +43,9 @@ execute `kahitsaan --help` to view additional options.
 ## Contributors
 
 - [Daniel Cefram Ramirez](https://github.com/dcefram) - creator and maintainer
+
+## Credits
+
+- [Zomato API](https://developers.zomato.com/api) - Without Zomato, I wouldn't have wasted a couple of hours of my life creating this.
+- [Crystal](https://crystal-lang.org)
+- [Crest](https://github.com/mamantoha/crest)
