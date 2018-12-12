@@ -30,6 +30,13 @@ P.S. I'm not a Ruby developer, but I'm pretty attracted with how easy it is to d
 - add `ZOMATO_API_KEY` to your global env (Generate the API Key at [Zomato's site](https://developers.zomato.com/api))
 - place binary to a folder that is included in your `PATH`. (I placed mine to `~/.local/bin`)
 
+#### OR
+
+- download the binary at the [releases page](https://github.com/dcefram/kahitsaan/releases) (only for Linux based OS)
+- install libssl and libcrypto
+- add `ZOMATO_API_KEY` to your global env (Generate the API Key at [Zomato's site](https://developers.zomato.com/api))
+- place binary to a folder that is included in your `PATH`. (I placed mine to `~/.local/bin`)
+
 ## Usage
 
 `kahitsaan --sa=greenbelt`
