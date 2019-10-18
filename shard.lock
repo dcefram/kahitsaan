@@ -2,5 +2,9 @@ version: 1.0
 shards:
   crest:
     github: mamantoha/crest
-    version: 0.17.0
+    version: 0.22.0
+
+  http-client-digest_auth:
+    github: mamantoha/http-client-digest_auth
+    version: 0.2.0
 

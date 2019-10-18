@@ -20,13 +20,15 @@ module Kahitsaan
       if suggestions.size > 0
         location = suggestions[0]
 
-        return {entity_id: location["entity_id"].as_i, entity_type: location["entity_type"].as_s}
+        return {success: true, message: "", data: {entity_id: location["entity_id"].as_i, entity_type: location["entity_type"].as_s}}
       end
     rescue ex : Crest::NotFound
-      puts ex.response
+      return {success: false, message: ex.response, data: nil}
+    rescue ex : KeyError
+      return {success: false, message: ex, data: nil}
     end
 
-    return nil
+    return {success: false, message: "We cannot find #{area}", data: nil}
   end
 
   def get_restaurant(count : Number, entity_id : Number, entity_type : String)
@@ -50,12 +52,14 @@ module Kahitsaan
           entry["restaurant"]
         end
 
-        return iter.to_a
+        return {success: true, message: "", data: iter.to_a}
       end
     rescue ex : Crest::NotFound
-      puts ex.response
+      return {success: false, message: ex.response, data: nil}
+    rescue ex : KeyError
+      return {success: false, message: ex, data: nil}
     end
 
-    return nil
+    return {success: false, message: "No restaurants found", data: nil}
   end
 end
