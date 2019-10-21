@@ -10,7 +10,10 @@ OptionParser.parse do |parser|
   parser.on("-i", "--in=AREA", "Area to search for") { |input| area = input }
   parser.on("-s", "--sa=AREA", "Lugar na titingnan natin") { |input| area = input }
   parser.on("-l", "--limit=LIMIT", "Number of results to output (default 1)") { |input| limit = input.to_i }
-  parser.on("-h", "--help", "Show this help") { puts parser }
+  parser.on("-h", "--help", "Show this help") do
+    puts parser
+    exit(0)
+  end
 end
 
 location_details = Kahitsaan.get_location_details area
